@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ghost.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Ghost.Api.Controllers.GhostController.GetTest">
+            <summary>
+            Get Test
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

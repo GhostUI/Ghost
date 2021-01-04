@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Ghost.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bailun.AbpCore.ServiceFabric" Version="2.0.6" />
+    <PackageReference Include="Bailun.ServiceFabric.Swagger" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ghost.Application\Ghost.Application.csproj" />
+    <ProjectReference Include="..\Ghost.Domain\Ghost.Domain.csproj" />
+    <ProjectReference Include="..\Ghost.EFCore\Ghost.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>
