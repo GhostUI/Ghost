@@ -11,12 +11,12 @@
   <ItemGroup>
     <PackageReference Include="Bailun.AbpCore.ServiceFabric" Version="2.0.6" />
     <PackageReference Include="Bailun.ServiceFabric.Swagger" Version="2.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="6.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Ghost.Application\Ghost.Application.csproj" />
     <ProjectReference Include="..\Ghost.Domain\Ghost.Domain.csproj" />
-    <ProjectReference Include="..\Ghost.EFCore\Ghost.EFCore.csproj" />
   </ItemGroup>
 
 </Project>
